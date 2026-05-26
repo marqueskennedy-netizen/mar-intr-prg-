@@ -1,24 +1,27 @@
 <!DOCTYPE html>
-<html pt-br>
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Combate</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" hre=".style.css">
+<title>Document</title>
 </head>
 <body>
-    <div claas = "controles">
-    <h1>Combate</h1>
-    <label>Escolha sua classe</label>
-    <select id="classe">
-        <option value="Guerreiro">Gerreiro</option>
-        <option value="Mago">Mago</option>
-        <option value="Arqueiro">Arqueiro</option>
-    </select>
-    <label>Equipe sua Arma</label>
-    <input type="text" id="arma" placeholder="Ex: Espada ,Cajado, Arco"
+<div class = "controles">
+<h2> COMBATE</h2>
+<label >Escolha sua Classe</label>
+<select id="classe">
+<option value="guerreiro">Guerreiro</option>
+<option value="mago">Mago</option>
+<option value="arqueiro">Arqueiro</option>
+</select>
+<label >Equipe sua arma </label>
+<input type="text" id="arma" placeholder="EX: Espada, Cajado, Arco">
 
+<button onlcick="lutar()">INICIAR O COMBATE </button>
+<div id="log">Aguardando desafiante</div>
 
-    
-    </div>
+</div>
 </body>
+<script scr=".batalha.js"></script>
 </html>
