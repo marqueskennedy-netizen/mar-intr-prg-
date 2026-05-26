@@ -1,0 +1,67 @@
+body{
+    background-color:rgb(38, 56, 24);
+    color:blueviolet;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+
+}
+h2{
+    text-align: center;
+    color:rgb(25, 83, 25);
+}
+
+.controles{
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+imput, select{
+    padding: 10px;
+    background: #333;
+    border:1px solid #73e78c;
+    color: #000;
+    border-radius: 5px
+}
+button{
+    padding: 12px;
+    background: blue;
+    border:none;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius:5px;
+    font-size: 16px
+
+}
+button:hover{
+    background-color: aqua;
+
+}
+
+#log{
+    background: #000;
+    padding: 15px;
+    border-radius: 5px;
+    min-height: 100px;
+    border-left: 4px solid #ff9900;
+}
+.critico{
+    color:blue;
+
+}
+.sucesso{
+    color:chocolate;
+}
+.derrota{
+    color:darkslategray;
+    font-style:italic ;
+}
+.arena{
+    background: #262626;
+    padding: 25px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 500px;
+}
