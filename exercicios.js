@@ -7,7 +7,23 @@ function lutar(){
         log.innerHTML= "Você esqueceu de equipar uma arma"
 
     }
-    let dado = matchMedia.floor(matchMedia.radom() * 20) + 1
+    let dado = Match.floor(Match.radom() * 20) + 1
+    let resultado = 'Dados: ${dado} | <strong>${classe}</strong> com </strong>'
 
-    0,4563 *20 +1
+    switch(classe){//Espada ESPADA EsPaDa
+        case "gerreiro":
+            if(arma.toLowerCase()==="espada" && dado>5){
+                resultado += "<span class='sucesso'>SUCESSO: você decaptou o monstro com um golpe de espada!</spam>"
+
+            }else if(dado >15){
+                resultado += "<spam>classe=  'sucesso'>VITÒRIA: Na força bruta você esmagou o inimigo com seu"+arma+"</spam>"
+
+            }else{
+                resultado +="<span class='derrota'>DERROTA: O mostro foi mais rápido. SUa "+arma+"ficou presa no chão:</span>";
+            }
+
+    }
+    
+
+   
 }
